@@ -2,7 +2,7 @@
     "features": [
         {
             "id": "helloworld",
-            "name": "My First Feature",
+            "name": "Rainfall First Feature",
             "options": {
                 "greeting": {
                     "type": "string",
@@ -15,11 +15,11 @@
         },
         {
             "id": "color",
-            "name": "A feature to remind you of your favorite color",
+            "name": "A Rainfall feature to remind you of your favorite color",
             "options": {
                 "favorite": {
                     "type": "string",
-                    "enum": [ "red", "gold", "green" ],
+                    "enum": [   "red", "gold", "green" ],
                     "default": "red",
                     "description": "Choose your favorite color."
                 }

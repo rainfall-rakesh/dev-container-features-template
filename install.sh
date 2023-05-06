@@ -12,7 +12,7 @@ set +a
 
 
 if [ ! -z ${_BUILD_ARG_HELLOWORLD} ]; then
-    echo "Activating feature 'helloworld'"
+    echo "Rainfall Activating feature 'helloworld'"
 
     # Build args are exposed to this entire feature set following the pattern:  _BUILD_ARG_<FEATURE ID>_<OPTION NAME>
     GREETING=${_BUILD_ARG_HELLOWORLD_GREETING:-undefined}
@@ -33,7 +33,7 @@ fi
 
 
 if [ ! -z ${_BUILD_ARG_COLOR} ]; then
-    echo "Activating feature 'color'"
+    echo "Rainfall Activating feature 'color'"
 
     # Build args are exposed to this entire feature set following the pattern:  _BUILD_ARG_<FEATURE ID>_<OPTION NAME>
 
