@@ -3,7 +3,10 @@ on:
   push:
     tags:
     - 'v*'
-
+permissions:
+  contents:read
+  packages:write
+  actions:write
 jobs:
   deploy: # make sure the action works on a clean machine without building
     runs-on: ubuntu-latest
